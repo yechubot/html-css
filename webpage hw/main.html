@@ -4,81 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" type = "text/css" href="css/main.css"/>
-    <title>Earth</title>
+   
+       <title>hostel.com</title>
 </head>
 <body>
     <header>
-       <h1>Earth</h1>
-        <div id = heading>
-            <img src = "images/headingimg.jpg" alt = "headingimg"/>
-        </div>
-        <div class = intro>
-            <h2>With Earth<span>어스</span>, 어디든지 떠나보세요</h2>
-            <h3>you can go anywhere with Earth</h3>
-        </div>
-        
+        <h1>HOSTEL WORLD</h1>
     </header>
-    <!--heading 밑의 메뉴-->
-        <div class = mainMenu>
+        <div class = "banner">
+            <img src = "images/headingimg.jpg" alt = "headingimg"/>
+            <div class = "welcome">
+                <h2>Meet the World<br/><span>Where do you want to go?</span></h2>
+                <input type = "text" placeholder = "어디로 가볼까요?"><button>GO!</button>
+            </div>
+
+            <div class = "note">
+                <h2>178여 개국, 36,000개 이상의 숙박시설</h2>
+                <h2>1300만 개 이상의 검증된 후기</h2>
+                <h2>24시간 고객 서비스</h2>
+            </div>
+            
+        </div>
+
+        <div class = "menu">
             <ul>
-                <li>BEST 100</li>
-                    <ul class = dropdown>
-                        <li>아시아</li>
-                        <li>미주</li>
-                        <li>중동</li>
-                        <li>유럽</li>
-                        <li>아프리카</li>
+                <li class = "shown"><a href = "#">호스텔</a></li>
+                <li class = "shown"><a href = "#">호텔</a></li>
+                <li class = "shown"><a href = "#">아침제공숙소</a></li>    
+                <li class = "shown"><a href = "#">빠른 링크</a></li>
+                    <ul class = "rent">
+                        <a href = "#">
+                        <li>자동차 렌트</li>
+                        <li>공항 이동</li>
+                        <li>가이드 투어</li>
+                        </a>
                     </ul>
-                <li>여행 Tip</li>
-                <li>고객 지원</li>
+                <li class = "shown"><a href = "#">고객지원</a></li>
             </ul>
         </div>
-        <!--left-->
-        <div class = pictures>
-            <h3>Earth와 여행한 사람들</h3>
-            <img src = "images/traveler1.jpg" alt = "traveler1"/>
-            <!--hover 하면 장소 뜨게-->
-            <h2 id = "hoverName">미국</h2>
-            <img src = "images/traveler2.jpg" alt = "traveler2"/>
-            <h2 id = "hoverName">모로코</h2>
-            <img src = "images/traveler3.jpg" alt = "traveler3"/>
-            <h2 id = "hoverName">인도네시아</h2>
-            <img src = "images/traveler4.jpg" alt = "traveler4"/>
-            <h2 id = "hoverName">스페인</h2>
-        </div>
-        <!--right-->
-        <div class = "reviews">
-            <h3>여행자들의 후기 </h3>
-            <table>
-                <tr> 
-                    <th>내용</th>
-                    <th>트래블러 ID</th>
-                </tr>
-                <tr>
-                    <td>덕분에 맘껏 힐링하고 왔어요</td>
-                    <td>ko_12</td>
-                </tr>
-                <tr>
-                    <td>원하는 국가로 볼 수 있으니 편해요!!</td>
-                    <td>backpaker23</td>
-                </tr>
-                <tr>
-                    <td>팁이 정말 유용하더라구요 여러분도 제대로된 힐링 여행 하시길 바래요 :)</td>
-                    <td>road_trip20</td>
-                </tr>
-           
-        </table>
-        </div>
-    
 
-    <footer>
-       
-        <address>
-            CEO: Y Kim<br/>
-            contact: Earth@earth.com<br/>
-            phone: 02-345-6789<br/>
-            address: 서울 어쩌구로 170-1 어스그룹빌딩
-        </address>
+        <div class = "pictures">
+            <h2>놓칠 수 없는 도시들</h2>
+            <h3>시내 중심에 위치한 나만의 숙소를 찾아보세요</h3>
+
+            <!--hover 하면 장소 뜨게 만들기-->
+    
+            <img src = "images/amsterdam.jpg" alt = "amsterdam"/>
+            <h2 id = "hoverName">암스테르담</h2>
+
+            <img src = "images/paris.jpg" alt = "paris"/>
+            <h2 id = "hoverName">파리</h2>
+
+            <img src = "images/bali.jpg" alt = "bali"/>
+            <h2 id = "hoverName">발리</h2>
+
+            <img src = "images/seoul.jpg" alt = "seoul"/>
+            <h2 id = "hoverName">서울</h2>
+
+            <img src = "images/budapest.jpg" alt = "budapest"/>
+            <h2 id = "hoverName">부다페스트</h2>
+
+            <img src = "images/berlin.jpg" alt = "berlin"/>
+            <h2 id = "hoverName">베를린</h2>
+        </div>
+        
+    <footer>    
+        <ul>
+            <li>데이터 보호 정책</li>
+            <li>약관 및 법률</li>
+            <li>웹사이트 테스트</li>
+            <li>사이트 맵</li>
+        </ul>
     </footer>
     
 </body>
